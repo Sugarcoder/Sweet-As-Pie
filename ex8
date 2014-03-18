@@ -1,0 +1,14 @@
+formatter = "%r %r %r %r"
+
+print formatter % (1, 2, 3, 4)
+print formatter % ("Do", "Re", "Mi", "Fa")
+print formatter % ("North", "East", "South", "West")
+print formatter % (True, False, True, False)
+
+print formatter % (formatter, formatter, formatter, formatter)
+
+print formatter % (
+	"Roses are red",
+	"Violets are blue.",
+	"Ice cream melts,",
+	"and so does my heart when I see you.")
