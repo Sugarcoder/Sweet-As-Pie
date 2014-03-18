@@ -1,0 +1,13 @@
+pusheen_cat = "I am Pusheen the Cat."
+grumpy_cat = "I am Grumpy Cat."
+
+fat_cat = """
+Just because I am a fat cat, 
+that does not mean I am not awesome. 
+Each of my lumps are awesome!
+"""
+
+
+print pusheen_cat
+print grumpy_cat
+print fat_cat
