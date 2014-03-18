@@ -1,0 +1,17 @@
+print "Twinkle twinkle little %s" % 'star'
+print "How I wonder where you are."
+print "Up above the world so high,"
+print "Like a diamond in the sky"
+print "Twinkle twinkle little star"
+print "How I wonder where you are."
+
+print "." * 10
+
+end1 = "K"
+end2 = "a"
+end3 = "w"
+end4 = "a"
+end5 = "i"
+end6 = "i"
+
+print end1 + end2 + end3 + end4 + end5 + end6
