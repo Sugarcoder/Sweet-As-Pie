@@ -1,0 +1,12 @@
+days = "Mon Tues Wed Thurs Fri Sat Sun"
+months = "\nJan\nFeb\nMar\nApr\nMay\nJune\nJuly\nAug\nSep\nOct\nNov\nDec"
+
+print "Here are the days:", days
+print "Here are the months:", months 
+
+print """
+I wish I was a programmer.
+Don't you? 
+You are judged based on your skills
+instead of based on favoritism and politics.
+"""
