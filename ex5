@@ -1,0 +1,12 @@
+my_name = 'Clark Kent'
+my_job = 'Save the world' # avoid cryptonite
+my_age = 30
+my_age_before = 28
+my_hair = 'brown'
+my_eyes = 'blue'
+
+
+print "My name is %s." % my_name
+print "I am here to %s." % my_job
+print "I have %s hair and %s eyes." % (my_hair, my_eyes)
+print "My age is %d, not %d." % (my_age, my_age_before)
