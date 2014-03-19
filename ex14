@@ -1,0 +1,22 @@
+from sys import argv
+
+script, Princess = argv
+prompt = '> '
+
+print "Hi %s, I'm the %s script." % (Princess, script)
+print "I'd like to ask you a few questions."
+print "Do you like me %s?" % Princess
+likes = raw_input (prompt)
+
+
+print "Where do you currently live %s?" % Princess
+lives = raw_input (prompt)
+
+print "What is your favorite color?" 
+colors = raw_input (prompt)
+
+print """
+Alright, based on what you've told me, 
+You must be the %s from Adventure Time,
+you live in %s and your favorite color is %s.
+""" % (Princess, lives, colors)
