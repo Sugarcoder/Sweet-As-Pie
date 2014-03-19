@@ -17,6 +17,6 @@ colors = raw_input (prompt)
 
 print """
 Alright, based on what you've told me, 
-You must be the %s from Adventure Time,
-you live in %s and your favorite color is %s.
+You must be the %r from Adventure Time,
+you live in %r and your favorite color is %r.
 """ % (Princess, lives, colors)
