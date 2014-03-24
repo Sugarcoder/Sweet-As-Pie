@@ -1,0 +1,178 @@
+# This is a script about eat word and symbol I've learned so far. 
+
+# = Commenting only. Hashtags are avoided when runnint the script.
+
+# print = prints a line.
+
+# " " = quotations around a line.
+
+# +, -, *, /,>=, >,< = Math. Need I say more? :)
+
+# Variables = brownies, people, names, etc. 
+# For example: my_name = Princess Bubblegum, my_job = princess
+
+# Underscore line = This is used in order for the script to be read. 
+# For example: "my_name", "my_job"
+
+# % = The percent symbol is used to mean something and used after a line. 
+# For example: print "My name is % and I am a %." % (my_name, my_job)
+
+
+# x and y = Signifies what you define it.  
+# For example: x = "If you're happy and you know it", y = "Clap your hands."
+# print x, print y 
+
+
+# end1, end 2 = Signifies what you define it. 
+# For example: end1 = "H", end2 = "i"
+# print end1 + end2
+
+
+# Formatter = Transforms an abstract flow of formatting events into specific output events on written objects.
+# Formatters allows various properties of a written object to be changed and restored. 
+# For example: print formatter % ("Roses are red", "Violets are blue.")
+
+
+# \n = This is like a break in a sentence. Kind of like when you hit RETURN and move below.
+# For example: months: "\nJan\nFeb\nMar\nApr\nMay"
+
+
+# """ = This is when you write multiple lines at once.
+# For example: print """ I wish I was a programmer. Don't you? You can create so many things with codes."""
+
+
+# This is just for fun: 
+# Grumpy_cat = "I am grumpy cat." 
+# print grumpy_cat
+
+
+# raw_input = This is where you can tell the user to input their own info
+# For example: print "How old are you?"   age = raw_input()
+# For example: age = raw_input ("How old are you? ")
+# print "So you are %r old."
+# %r = read
+
+
+# from sys import argv = Extracting an argument from the computer 
+# sys = system
+# import = Grabs from
+# argv = argument
+
+
+
+# () = This is where you can input your own info. You could also leave it blank. 
+
+
+# open = Opens a file
+
+
+# Truncate = Destroys a file
+
+
+# target.write = writes a line.
+# For example: target.write(line1)
+# line1 = raw_input("line 1: ")
+
+
+# os.path = Operating system's path
+
+
+# len(indata) = The length in the data
+
+# in_file(read) = Read what is in the file.
+
+# out_file.write(indata) = Writes the data out to the file
+
+
+# def = Defines something
+# For example: def print_one(arg1), def print_none()
+# Another example: def cheese_and_crackers(cheese_count, boxes_of_crackers):
+# print "You have %d cheese and %d boxes of crackers!" % (cheese_count, boxes_of_crackers)
+
+
+# %d = D stands for digits. For example: print "%d candy canes." % candy_canes
+
+
+# open(from_file) = Open from the file
+
+
+# print f.read() = Reads the specified file
+
+# def rewind(f): f.seek() = Seeks for the file and then reruns it
+
+
+# current_file = The current file
+
+# current_line = The current line
+
+
+# def add (a, b): print "Adding %d + %d" % (a, b) = Adds two digits you want to add
+
+# def subtract (a, b) = Subtracts digits
+
+# def multiply (a, b) = Multiplies two digits
+
+# def divide (a, b) = Divides two digits
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
