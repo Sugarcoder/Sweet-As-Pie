@@ -25,3 +25,7 @@ print_two("Finn", "Jake")
 print_two_again("Finn", "Jake")
 print_one("First!")
 print_none()
+
+
+# print_one, print_two, print_none is a function. 
+# You could call it "bubblegum" if you want to. Functions just tell you what it does.
