@@ -1,0 +1,57 @@
+# Type in "python ex20.py test" when running this script.
+
+
+from sys import argv
+
+script, input_file = argv
+
+def print_all(f):
+	print f.read()
+
+def rewind(f):
+	f.seek(0)
+
+def print_a_line(line_count, f):
+	print line_count, f.readline()
+
+current_file = open(input_file)
+
+print "First, let's put the whole file: \n"
+
+# I made a file called "test.txt" and added 3 lines in there.
+
+# Twinkle twinkle little star
+# How I wonder what you are
+# Up above the world so high
+
+
+
+print_all(current_file)
+
+print "Now, let's rewind like those old cassette tapes."
+
+
+rewind(current_file)
+
+print "Let's print 3 lines:"
+
+
+current_line = 1 
+print_a_line(current_line, current_file)
+
+
+# Twinkle twinkle little star
+
+
+current_line = current_line + 1
+print_a_line(current_line, current_file)
+
+
+# How I wonder where you are
+
+
+current_line = current_line + 1
+print_a_line(current_line, current_file)
+
+
+# Up above the world so high
