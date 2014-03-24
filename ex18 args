@@ -1,0 +1,27 @@
+# Make sure to type "python ex18.py args" when running it.
+
+
+# This script prints two arguments.
+def print_two(*args):
+	arg1, arg2 = args
+	print "arg1: %r, arg2: %r" % (arg1, arg2)
+
+
+# *args is actually pointless, so just use this one instead.
+def print_two_again(arg1, arg2):
+	print "arg1: %r, arg2: %r" % (arg1, arg2)
+	
+
+# This one only takes 1 argument
+def print_one(arg1):
+	print "arg1: %r" % arg1
+
+# This one doesn't take any arguments
+def print_none():
+	print "You ain't got nothin' on me."
+
+
+print_two("Finn", "Jake")
+print_two_again("Finn", "Jake")
+print_one("First!")
+print_none()
