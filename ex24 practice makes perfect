@@ -1,0 +1,44 @@
+print "You\'d need to know \'bout escapes with \\ that do \n newlines and \t tabs."
+
+
+print "I wish I was a \n billionaire."
+
+
+poem = """
+\t The lonely planet
+far away from every other planet
+No one to talk to 
+Nothing to stare at except into space
+\n\t\twaiting for a sign of life.
+"""
+
+print "-----------"
+print poem
+print "-----------"
+
+
+
+five = 10 - 2 + 3 -6
+print "This should be five: %s" % five
+
+
+def secret_formula(started):
+	jelly_beans = started * 500
+	cupcakes = jelly_beans / 1000
+	brownies = cupcakes / 100
+	return jelly_beans, cupcakes, brownies
+
+
+start_point = 10000
+jelly_beans, cupcakes, brownies = secret_formula(start_point)
+
+
+print "With a starting point of: %d" % start_point
+print "We'd have %d jelly beans, %d cupcakes, and %d brownies." % (jelly_beans, cupcakes, brownies)
+
+
+start_point = start_point / 10 
+
+
+print "We can also do that this way: "
+print "We'd have %d jelly beans, %d cupcakes, and %d brownies." % secret_formula(start_point)
