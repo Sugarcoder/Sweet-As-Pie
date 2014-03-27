@@ -1,0 +1,26 @@
+heroes = 50
+zombies = 40
+villains = 15
+
+
+if heroes > zombies: 
+	print "We should be able to defeat the zombies."
+elif zombies < heroes:
+	print "I think we are doomed."
+else: 
+	print "Hope we got this situation under controlled..."
+
+
+
+if villains > zombies: 
+	print "Do you think villains will be able to defeat zombies?"
+elif zombies < villains:
+	print "Villains are still prone to being attacked."
+else: 
+	print "Even villains may stand a chance against zombies."
+
+
+if heroes > villains: 
+	print "However, heroes are less deceiving in their ways."
+else:
+	print "If heroes are defeated by villains, we are doomed."
