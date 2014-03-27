@@ -28,5 +28,5 @@ if heroes == villains:
 	print "Heroes are villains."
 
 
-# The IF statement is basically "if you do this, then that will happen."
+# The IF statement is basically "If you do this, then this will happen."
 # Can't get any simpler than that. Just sayin'.
