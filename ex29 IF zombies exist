@@ -1,0 +1,32 @@
+heroes = 20
+zombies = 30
+villains = 15
+
+if heroes < zombies: 
+	print "Too many zombies! The world is doomed!"
+
+if heroes > zombies: 
+	print "There's not a lot of zombies...the world can still be saved!"
+
+if heroes > villains:
+	print "They can't take over us."
+
+
+if villains > heroes:
+	print "We're doomed."
+
+
+villains +=5
+
+if heroes >= villains:
+	print "Heroes are greater than or equal to villains."
+
+if heroes <= villains:
+	print "Heroes are less than or equal to villains."
+
+if heroes == villains: 
+	print "Heroes are villains."
+
+
+# The IF statement is basically "if you do this, then that will happen."
+# Can't get any simpler than that. Just sayin'.
