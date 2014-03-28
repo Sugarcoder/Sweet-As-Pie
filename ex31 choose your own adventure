@@ -1,0 +1,38 @@
+print "You entered a dark room with two doors. Do you go through door #1 or door #2?"
+
+door = raw_input("> ")
+
+
+if door == "1":
+	print "Zombies will pop out of it! What do you do?"
+	print "1. Poke them with a banana."
+	print "2. Scream long vocabulary words at them."
+
+
+	zombie = raw_input("> ")
+
+ 	if zombie == "1":
+		print "The zombie eats the banana, and then eats you."
+	elif zombie == "2":
+		print "The zombie's brain explodes due to migraines."
+	else: 
+		print "Well, %s is probably better. The zombie runs away." % zombie
+
+
+
+elif door == "2":
+	print "You end up on Starfleet, stare into Space and see..."
+	print "1. A Klingon spaceship."
+	print "2. A Borg spaceship."
+	print "3. A Romulan spaceship."
+
+	ship = raw_input("> ")
+
+	if ship == "1" or ship == "2":
+		print "Your ship survives because you got lucky."
+
+	else:
+		print "The other spaceship just blew up your spaceship and your whole crew is gone...including you."
+
+else:
+	print "You come across a Vulcan spaceship and your ship gets taken over."
