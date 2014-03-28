@@ -1,0 +1,15 @@
+# 0 in numbers is the "ordinal" numbers. 
+
+# Anytime you want another number added, you translate the "ordinal" number to a "cardinal" number by subtracting 1.
+
+# Ordinal == ordered, 1st; Cardinal == cards at random, 0.
+
+
+animals = ['panda', 'monkey', 'viper', 'crane', 'tiger', 'mantis']
+
+panda = animals[0]
+monkey = animals[1]
+viper = animals[2]
+crane = animals[3]
+tiger = animals[4]
+mantis = animals[5]
