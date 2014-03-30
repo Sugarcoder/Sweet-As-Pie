@@ -1,0 +1,39 @@
+# GOOD RULES TO FOLLOW
+
+# Rules for IF Statements:
+
+# Every IF must have an ELSE.
+
+# Never nest the IF more than two deep. 
+# For example, if you put an IF inside another IF, you should move the second IF into another function. 
+
+# Treat the IF like a paragraph. Each IF ELIF ELSE is like a set of sentences.
+# Put blank lines before and after.
+
+# Booleans should be simple. If they are complex, move their calculations earlier on and give it a good name.
+
+
+
+
+# Rules for Loops:
+
+ # WHILE loop is only to use forever (never use it, it'll drive you nuts.)
+ # FOR loop is for all kinds of loops, like a fixed amount of things to loop over.
+ # Ex: Eating 5 pieces of gummy bears until it's all gone.
+
+
+
+
+ # Debugging Tips:
+
+ # Try not to use a debugger because it may confuse you more.
+ # The BEST way to debug a program is use "print".
+ # Write parts of codes and then run it. 
+ # Code a little, run a little, and fix a little.
+
+
+
+
+# Starting New Project Tips:
+
+# Make a list of things you should do, and then do them one at a time.
