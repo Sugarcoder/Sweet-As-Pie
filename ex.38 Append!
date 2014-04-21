@@ -1,0 +1,22 @@
+# append = calling a list and making it do things. 
+
+# Example:
+
+mycandy.append ('sweet')          # The ('  ') tells the computer that it is an argument
+
+
+# Full Example: 
+
+
+ten_colors = "Red Orange Yellow Green Blue Indigo Violet"
+
+print "We need 10 colors, so let's add a few more." 
+
+
+ten_colors.split(' ')
+
+more colors = ["Pink", "White", "Black"]
+
+
+
+
