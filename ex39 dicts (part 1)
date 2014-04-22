@@ -1,0 +1,40 @@
+# Dictionary (aka "dicts", other languages call it "hashes")
+
+# "Dict" lets you use anything, not just numbers. 
+
+# "Dict" associates one thing to another.
+
+
+
+# Example: 
+
+Candy_Kingdom = {'name': 'Bubblegum', 'age': 16, 'height': 8*20}
+
+print Candy_Kingdom['name']  
+
+print Candy_Kingdom['age']
+
+print Candy_Kingdom['height']
+
+
+
+
+# Another Example: 
+
+Candy_Kingdom[1] = "Gummy Bears"
+
+Candy_Kingdom[2] = "Sour Patch"
+
+print Candy_Kingdom
+
+
+
+
+# How to delete things from "Dicts":
+
+
+del Candy_Kingdom['name']
+
+del Candy_Kingdom[1]
+
+del Candy_Kingdom[2]
