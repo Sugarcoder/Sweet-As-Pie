@@ -1,0 +1,98 @@
+# "Dict" Exercise: 
+
+
+# Instruction: Create a mapping of States' abbreviations. 
+
+
+states = {
+	'California': 'CA',
+	'Oregon': 'OR',
+	'Washington': 'WA',
+	'Nevada': 'NV',
+	'Arizona': 'AZ'
+}
+
+
+# Create a set of States and cities in them.
+
+cities = {
+	'CA': 'San Francisco',
+	'OR': 'Bend',
+	'WA': 'Seattle',
+	'NV': 'Las Vegas',
+	'NY': 'New York'
+}
+
+
+# Add some more "cities".
+
+cities['AZ'] = 'Phoenix'
+cities['FL'] = 'Miami'
+
+
+
+# Print out some "cities".
+
+print '-' * 10
+print "CA state has: ", cities['CA']
+print "NV state has: ", cities['NV']
+
+
+# Print out some "states".
+
+print '-' * 10
+print "California's abbreviation is: ", states['California']
+print "Washington's abbreviation is: ", states['Washington']
+
+
+
+# Print out "cities", then "states" dict.
+
+print '-' * 10
+print "California has: ", cities[states['California']]
+print "Oregon has: ", cities[states['Oregon']]
+
+
+
+# Print out every "states"'s abbreviation' 
+
+# (I like this way better because it's cleaner.)
+
+
+print '-' * 10
+
+for state, abbrev in states.items(): 
+   	print "%s is abbreviated to %s" % (state, abbrev)
+
+
+
+
+# Print out "state" and "cities" abbreviations at the same time. 
+
+print '-' * 10
+
+for state, abbrev in states.items():
+	print "%s state is abbreviated %s, and has %s" % (states, abbrev, cities[abbrev])
+
+
+
+
+# Get a state abbreviation that might not be there. 
+
+print '-' * 10
+
+state = states.get('Texas', None)     
+
+if not state: 
+	print "Sorry, no Texas."
+
+
+
+# Get a city with a default value.
+
+city = cities.get('TX', 'Does not exist')
+print "The city for the state 'TX' is: %s" % city    
+
+# Answer will be 'Does not exist'
+
+
