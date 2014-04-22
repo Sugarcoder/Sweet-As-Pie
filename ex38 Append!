@@ -1,8 +1,10 @@
-# append = calling a list and making it do things. 
+# append = calling a list and adding things to it (add something as an attachment).
+
 
 # Example:
 
 mycandy.append ('sweet')          # The ('  ') tells the computer that it is an argument
+
 
 
 # Full Example: 
@@ -10,13 +12,32 @@ mycandy.append ('sweet')          # The ('  ') tells the computer that it is an 
 
 ten_colors = "Red Orange Yellow Green Blue Indigo Violet"
 
-print "We need 10 colors, so let's add a few more." 
+print "We need 10 colors, so let's add a few more."
 
 
-ten_colors.split(' ')
+colors = ten_colors.split(' ')
 
-more colors = ["Pink", "White", "Black"]
-
-
+more_colors = ["Pink", "White", "Black"]
 
 
+
+while len(colors) != 10: 
+	next_one = more_colors.pop()
+	print "Adding", next_one
+	colors.append(next_one)
+	print "There's %d colors now." % len(colors)
+
+
+
+print "There we go: ", ten_colors
+
+print "Let's do something with colors."
+
+
+print colors[1]
+
+
+print colors[-1]
+
+
+print ''.join(colors)
