@@ -1,0 +1,37 @@
+# Modules are like dictionaries.
+
+# Module =  A specialized dictionary that can store codes,
+# so you could get it with the '-' operator.
+
+
+
+
+mysweets = {'candy': "I like to eat candy."}
+print mysweets['candy']
+
+
+# If you create another module (ex. "sugar.py"), 
+# and add "def sugar(): print "Sugar is sweet!", 
+# you can call:
+
+# import mysweets   
+# mysweets.sugar() 
+# in the script. 
+
+# You can even add more variables (ex. cotton_candy)
+# cotton_candy = "This is so soft."
+
+# import mysweets
+# mysweets.sugar()
+# print mysweets.cotton_candy
+
+
+# Example: 
+
+mysweets['candy']   # Gets candy from the "dict"
+
+mysweets.candy()    # Gets candy from the module  (This is assuming you created one already)
+
+mysweets.cotton_candy  # Gets cotton_cotton from the module (except "cotton_candy" is a variable)
+
+
