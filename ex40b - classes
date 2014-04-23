@@ -1,0 +1,19 @@
+# Classes are like modules. 
+
+# Class = Takes a group of functions & data and places them inside a container,
+# so you can access them with the '-' operator. 
+
+
+# Example of a class: 
+
+class myCandy(object):
+	def _init_(self):        # _init_() is a function
+		self.cotton_candy = "How much softer could I be?"
+
+	def sugar(self):         # sugar() is a function. 
+		print "I am the Sugar King!"
+
+
+# Classes are good for creating millions of them at a time, and they won't interfere with one another.
+
+# However, modules are only imported as one entire program. 
