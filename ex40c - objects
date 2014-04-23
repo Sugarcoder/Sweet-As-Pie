@@ -1,0 +1,39 @@
+# Objects are like mini imports. 
+
+# When you instantiate (create) a class, you get an object.
+
+
+# Example:
+
+sweets = mysweets()
+
+sweets.sugar()
+
+print sweets.cotton_candy
+
+
+
+
+# 3 ways to get things from "sweets":
+
+
+# "dict" style:
+
+mysweets['sugar']
+
+
+# module style:
+
+mysweets.sugar()
+print mysweets.cotton_candy
+
+
+# class style: 
+
+sweets = mysweets()
+sweets.sugar()
+print sweets.cotton_candy
+
+
+
+
