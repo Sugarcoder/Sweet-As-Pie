@@ -23,7 +23,7 @@ print mysweets['candy']
 
 # import mysweets
 # mysweets.sugar()
-# print mysweets.cotton_candy
+# print mysweets.cotton_candy       # cotton_candy is a variable from the module "sugar".
 
 
 # Example: 
