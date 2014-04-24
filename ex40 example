@@ -1,0 +1,19 @@
+# Example: 
+
+
+class Song(object):
+
+	def _init_(self, lyrics):
+		self.lyrics = lyrics
+
+	def sing_me_a_song(self):
+		for line in self.lyrics:
+			print line
+
+happy_bday = Song(["Happy Birthday to you"])
+
+balls_on_parade = Song(["Cow always say moo"])
+
+happy_bday.sing_me_a_song()
+
+balls_on_parade.sing_me_a_song()
