@@ -1,0 +1,34 @@
+# Self = A variable for the instance/object being assessed. 
+
+# Composition = A concept that a class can be composed of other classes as parts (like the parts of a car). 
+
+# Attribute = A property classes have that are from composition, and are usually variables. 
+
+# is-a = A phrase to say that something is inherited from another (ex. "Spongebob" is-a "sponge")
+
+# has-a = A phrase to say that something is composed of other things or has a trait (ex. "Spongebob" has-a mouth")
+
+
+
+
+
+# class X(Y)  =  Make a class named X that is-a Y.
+
+
+# class X(object): def _init_(self, J)  =  class X has-a _init_ that takes "self" and J parameters.
+
+
+# class X(object): def M(self, J)  =  class X has-a function named M that takes "self" and J paramenters.
+
+
+# foo = X()  =  Set "foo" to an instance of class X.
+
+
+# foo.M(J)  =  From "foo", get the M function and call it with parameter J.
+
+
+# foo.K = Q  = From "foo", get the K attribute and set it to Q.
+
+
+
+
