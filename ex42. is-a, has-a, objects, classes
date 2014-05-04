@@ -1,0 +1,3 @@
+# is-a = objects & classes related to each other by class (ex. fish and salmon)
+
+# has-a = objects & classes related to each other by reference (ex. fish and gills)
